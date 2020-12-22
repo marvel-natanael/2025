@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Char : MonoBehaviour
 {
@@ -99,6 +100,8 @@ public class Char : MonoBehaviour
         heart1.gameObject.SetActive(false);
         heart2.gameObject.SetActive(false);
         heart3.gameObject.SetActive(false);
+
+        SceneManager.LoadScene("Lose");
         //Destroy(gameObject);
         //Time.timeScale = 0f;
     }

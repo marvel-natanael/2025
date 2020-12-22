@@ -255,7 +255,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "You Win!\t\nYou have found the cure... but at what cost?"
+  m_Text: "You Win!\t\nYou have found the cure...\nbut at what cost?"
 --- !u!222 &474346494
 CanvasRenderer:
   m_ObjectHideFlags: 0

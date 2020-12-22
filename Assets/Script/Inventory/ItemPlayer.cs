@@ -17,7 +17,7 @@ public class ItemPlayer : MonoBehaviour
         silverAmount.text = ""+DataItemPlayer.grenade;
         textAmmo.text = "Ammo : " + DataItemPlayer.ammo;
         textGold.text = "Gold : " + DataItemPlayer.gold;
-        textGrenade.text = "Grenade : " + DataItemPlayer.grenade;
+        textGrenade.text = "Silver Bullet : " + DataItemPlayer.grenade;
         textHealthBox.text = "HealthBox : " + DataItemPlayer.healthBox;
     }
 }
